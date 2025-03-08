@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+div{
+    display: block;
+     
+}
+
+
+body {
+    background-color: rgb(91, 189, 224);
+}
+
+h1 {
+    color: rgba(71,143,225,255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex-container  {
+    align-items: center;
+    justify-content: center;
+    
+    background-color:rgb(244,244,251);
+    margin: 100px;
+    padding: 20px;
+    
+    border-radius: 10px;
+    
+}
+
+
+#grad {
+    background-image: linear-gradient(to right, rgb(96,132,198) , rgb(192,214,240));
+}
